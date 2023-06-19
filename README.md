@@ -1,4 +1,4 @@
-# My JAVA Solutions for LeetCode
+# My Java Solutions for LeetCode Questions
 
 
 ## Problems & Solutions
