@@ -1,6 +1,9 @@
 import java.math.BigInteger;
 
 public class AddTwoNumbers {
+    public static void main(String[] args) {
+
+    }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         BigInteger sum = new BigInteger(linkedListSum("", l1)).add(new BigInteger(linkedListSum("", l2)));
         ListNode a = new ListNode(sum.mod(new BigInteger("10")).intValue());
